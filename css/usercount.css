@@ -1,0 +1,236 @@
+
+.btn-common {
+    font-size :23px;
+    background-color: #e91e63;
+    position: relative;
+    z-index: 1;
+    border-radius: 4px;
+    color: aliceblue;
+}
+
+.btn-common:hover {
+    color:  lightslategray;
+    box-shadow: 0 6px 22px rgba(0, 0, 0, .1);
+    transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+}
+
+.btn-border {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+.btn-border:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .2);
+}
+
+
+button:focus {
+    outline: none !important;
+}
+
+.intro {
+    background: url(../img/hero-area.jpg) no-repeat;
+    border-radius: 7px;
+    background-size: cover;
+    color: #fff;
+    padding: 15px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.intro .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #0c0808;
+    opacity: .4;
+}
+
+.intro .heading-count h2 {
+    font-size: 80px;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .5);
+}
+
+.intro .target-scroll {
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.intro .target-scroll i {
+    color: #fff;
+    font-size: 40px;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.intro .target-scroll i:hover {
+    color: #ddd;
+}
+
+.intro .btn {
+    margin: 10px;
+}
+
+
+
+
+
+.countdown-timer {
+    color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    top: 28%;
+    text-align: center;
+    width: 100%;
+}
+
+.countdown-timer .heading-count {
+    padding: 10px 68px;
+    text-align: center;
+}
+
+.countdown-timer .heading-count h2 {
+    font-size: 42px;
+    color: #fff;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.countdown-timer p {
+    font-size: 14px;
+    color: #fff;
+    line-height: 22px;
+}
+
+.countdown-timer .button-group {
+    margin-top: 30px;
+}
+
+.countdown-timer .btn {
+    margin: 10px;
+}
+
+.time-count div {
+    text-align: center;
+   
+}
+
+.time-entry {
+    display: inline-block;
+    margin: 1px;
+    padding: 18px;
+    border-radius: 0;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.time-entry span {
+    font-size: 45px;
+    font-family: montserrat, sans-serif;
+    line-height: 45px;
+    font-weight: 700;
+    display: block;
+    color: #fff;
+    margin-bottom: 10px;
+   
+}
+
+.time-entry:first-child {
+    border-left: none;
+}
+
+.countdown {
+    
+    text-align: center;
+    
+    margin: 10px auto;
+    display: inline-block;
+}
+
+.countdown .time-count {
+     
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.countdown .time-count .time-entry {
+     
+    text-align: center;
+    position: relative;
+    display: inline-block;
+     width: 90%;
+    height: 80px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    background: rgba(255, 255, 255, .25);
+    border: 1px solid rgba(255, 255, 255, .5);
+    box-shadow: 0 5px 50px -10px #000;
+}
+
+.countdown .time-count .time-entry span {
+     letter-spacing: 35px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    font-family: montserrat, sans-serif;
+    display: block;
+ 
+    
+}
+
+.line-right {
+    margin: 30px 0;
+}
+
+.line-right .time-count {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.line-right .time-count .time-entry {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 115px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    background: #e91e63;
+    box-shadow: 0 5px 50px -10px #fff;
+}
+
+.line-right .time-count .time-entry span {
+    
+    font-size: 45px;
+    font-weight: 700;
+    font-family: montserrat, sans-serif;
+    color: #fff;
+    display: block;
+  
+ 
+    
+}
+
+
+
+
+
